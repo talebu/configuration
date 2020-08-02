@@ -1,7 +1,7 @@
 # git-prompt settings
 if [ -f ~/.git-prompt.sh ]; then
    source ~/.git-prompt.sh
-   export PS1='\[\033[1;32m\]\u: \[\033[1;35m\]\w\]$(__git_ps1)\$ \[\033[0m\]\]\]'
+   export PS1='\[\033[1;32m\]\u:\]\[\033[1;35m\]\w\]$(__git_ps1)\$ \[\033[0m\]\]'
    #export PS1='\[\033[1;32m\]\u: \w$(__git_ps1)\$\[\033[0m\]'
 fi
 
