@@ -31,7 +31,7 @@ alias gb='git branch'
 alias wol='wakeonlan -f wol/ubuntu'
 export PGDATA='/usr/local/pgsql/data/'
 alias psql='psql -d postgres'
-alias postgres='postgres >> /Users/Syota/postgres.log 2>&1 &'
+alias postgres='postgres >> $HOME/postgres.log 2>&1 &'
 alias vlc='~/apps/VLC.app/Contents/MacOS/VLC'
 
 #source ~/.venv/base/bin/activate
