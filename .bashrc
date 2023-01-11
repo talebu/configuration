@@ -11,3 +11,4 @@ alias vlc='~/apps/VLC.app/Contents/MacOS/VLC'
 #source ~/.venv/base/bin/activate
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export BASH_SILENCE_DEPRECATION_WARNING=1
