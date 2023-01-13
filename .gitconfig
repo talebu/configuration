@@ -2,4 +2,4 @@
 	name = talebu
 	email = talebu.co@gmail.com
 [color]
-	ui = auto
+	ui = true
