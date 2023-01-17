@@ -8,5 +8,5 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 #alias wol='wakeonlan -f wol/ubuntu'
 
 # Set PATH, MANPATH, etc., for Homebrew.
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if which brew > /dev/null; then eval "$(/opt/homebrew/bin/brew shellenv)"; fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
