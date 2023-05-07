@@ -7,6 +7,11 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 #alias wol='wakeonlan -f wol/ubuntu'
 
-if which pyenv > /dev/null 2>&1; then eval "$(pyenv init -)"; fi
+export PATH=/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
 if which brew > /dev/null 2>&1; then eval "$(/opt/homebrew/bin/brew shellenv)"; fi
+if which pyenv > /dev/null 2>&1; then eval "$(pyenv init -)"; fi
 if which rbenv > /dev/null 2>&1; then eval "$(rbenv init -)"; fi
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
